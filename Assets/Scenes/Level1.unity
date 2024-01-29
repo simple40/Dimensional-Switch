@@ -22937,6 +22937,7 @@ GameObject:
   - component: {fileID: 1707968718}
   - component: {fileID: 1707968723}
   - component: {fileID: 1707968724}
+  - component: {fileID: 1707968725}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -22978,7 +22979,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1707968717}
-  m_Material: {fileID: 13400000, guid: 56bc85a8fe74ee648b6376cf960e8e93, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -23174,6 +23175,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &1707968725
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707968717}
+  m_Material: {fileID: 13400000, guid: 56bc85a8fe74ee648b6376cf960e8e93, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.05, y: 0.9, z: 1.05}
+  m_Center: {x: 0, y: 0.0000014305115, z: -0.00000071525574}
 --- !u!1001 &1732264753
 PrefabInstance:
   m_ObjectHideFlags: 0
